@@ -1,0 +1,29 @@
+Python 暫存檔案
+
+pycache/
+*.py[cod]
+*$py.class
+
+虛擬環境
+
+venv/
+env/
+ENV/
+
+Streamlit 暫存檔
+
+.streamlit/
+
+作業系統產生的檔案
+
+.DS_Store
+Thumbs.db
+
+編輯器設定
+
+.vscode/
+.idea/
+
+資料庫連接記錄或暫存（如有）
+
+*.log
