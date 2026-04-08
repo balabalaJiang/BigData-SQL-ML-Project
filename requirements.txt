@@ -1,0 +1,15 @@
+核心網頁框架
+
+streamlit
+
+數據處理與分析
+
+pandas
+
+SQL Server 資料庫連接驅動
+
+pyodbc
+
+機器學習支援 (若需在本地驗證邏輯)
+
+scikit-learn
