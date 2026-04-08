@@ -5,15 +5,18 @@
 ## 📂 專案檔案布局
 根據目前的開發配置，專案結構如下：
 
-* **app/**
-    * `1258001_江永閎_網站開發.py`: 使用 Streamlit 開發的網頁前端程式，負責與 SQL 伺服器進行數據互動。
-* **docs/**
-    * `1258001_江永閎_網站開發.pdf`: 詳細的專案成果報告書，包含開發邏輯與系統截圖。
-* **sql/**
-    * `1258001_江永閎_機器學習.sql`: 包含資料表建置 (Schema)、範例數據匯入，以及調用 Python 腳本的預存程序。
-* **.gitignore**: 設定 Git 忽略上傳的暫存檔案與環境文件。
-* **README.md**: 專案說明文件（本檔案）。
-* **requirements.txt**: 紀錄執行本專案所需的 Python 套件清單。
+```text
+BigData_SQL_ML_Project/
+├── app/
+│   └── 1258001_江永閎_網站開發.py     # Python Web UI 程式碼 (Streamlit 框架)
+├── docs/
+│   └── 1258001_江永閎_網站開發.pdf    # 完整成果展示與開發報告書
+├── sql/
+│   └── 1258001_江永閎_機器學習.sql    # 資料庫建置、數據匯入與 ML 預存程序
+├── .gitignore                         # Git 忽略設定檔案
+├── README.md                          # 本專案說明文件
+└── requirements.txt                   # Python 環境相依套件清單 (pyodbc, streamlit...)
+```
 
 ## 🛠️ 技術棧與功能亮點
 * **資料庫端 (Back-end)**: 利用 SSMS 進行結構化數據管理，並透過 `sp_execute_external_script` 在 SQL Server 內部直接執行機器學習演算法。
